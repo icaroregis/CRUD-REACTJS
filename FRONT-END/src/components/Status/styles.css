@@ -1,0 +1,28 @@
+.bolinha-status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: black;
+  margin-right: 10px;
+}
+
+.bolinha-status.ativo {
+  background-color: #49ad5b;
+}
+
+.bolinha-status.inativo {
+  background-color: #d6323f;
+}
+
+.bolinha-status.aguardando {
+  background-color: #d2a710;
+}
+
+.bolinha-status.desativado {
+  background-color: #d2d2d2;
+}
+
+.status-bolinha {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+.container-header {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+/* align-itens é para colunas, justify-content é para linhas*/
+.imagem-header {
+  width: 82px;
+  height: 31px;
+}

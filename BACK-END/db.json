@@ -1,0 +1,44 @@
+{
+  "galera": [
+    {
+      "nome": "Marianne",
+      "email": "mari.corada@gmail.com",
+      "CPF": "1346578",
+      "telefone": "13246574",
+      "status": "ativo",
+      "id": 3
+    },
+    {
+      "nome": "Amon De La Cruz  ",
+      "email": "amon.cruz@gmail.com",
+      "CPF": "123465789",
+      "telefone": "1324657489",
+      "status": "ativo",
+      "id": 4
+    },
+    {
+      "nome": "Saulo Anderson de Ameida ",
+      "email": "sualo.almeida@gmail.com",
+      "CPF": "05378937337",
+      "telefone": "123457",
+      "status": "ativo",
+      "id": 5
+    },
+    {
+      "nome": "Crisanto de Oliveira Paiva",
+      "email": "crisanto.almeida@gmail.com",
+      "CPF": "05378937337",
+      "telefone": "123457",
+      "status": "ativo",
+      "id": 5
+    },
+    {
+      "nome": "Marcos de Oliveira Paiva",
+      "email": "marcos.almeida@gmail.com",
+      "CPF": "05378937337",
+      "telefone": "123457",
+      "status": "ativo",
+      "id": 5
+    }
+  ]
+}

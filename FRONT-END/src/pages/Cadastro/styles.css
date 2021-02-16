@@ -1,0 +1,80 @@
+.section-cadastro {
+  max-width: 1076px;
+  width: 100%;
+  /*display: flex;*/
+  align-items: center;
+  margin-top: 80px;
+  padding-bottom: 30px;
+  margin: 30px auto;
+}
+
+.section-cadastroTwo {
+  max-width: 1076px;
+  width: 100%;
+  align-items: center;
+  /*margin-top: 80px;*/
+  padding-bottom: 30px;
+  margin: 20px auto;
+}
+
+.div-herder2 {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.titulo-cadastro {
+  margin-top: 40px;
+}
+
+.header-p {
+  margin-top: 15px;
+  color: #666666;
+}
+
+.paragrafo-cadastro p {
+  margin-top: 15px;
+  color: #666666;
+}
+
+.section-cadastroThree {
+  max-width: 1076px;
+  width: 100%;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.section-cadastroThree input {
+  border: 1px solid #8492a6;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.button-cadastro {
+  width: 15%;
+  padding: 8px 8px;
+  background: orange;
+  color: white;
+  font-size: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s all;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 25px;
+}
+
+.button-cadastro:hover {
+  background: darkgreen;
+  transform: scale(1.2);
+}
+
+.formularios-checkbox {
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

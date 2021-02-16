@@ -1,0 +1,100 @@
+.container-headerTwo {
+  max-width: 1076px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.titulo-two {
+  margin-top: 40px;
+}
+
+.section-header-two h2 {
+  font-size: 28px;
+}
+
+.listagem-strong {
+  padding-top: 30px;
+  margin-bottom: 25px;
+}
+
+.header-p {
+  margin-top: 15px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+
+.section-padrao {
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  /*border: 1px dashed red;*/
+  text-align: center;
+}
+
+.editar-button,
+.excluir-button {
+  width: 130px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editar-button {
+  margin-right: 10px;
+  border: 1px solid #e29933;
+  color: #e29933;
+}
+
+.excluir-button:hover {
+  background-color: #ee5253;
+  color: white;
+}
+
+.editar-button:hover {
+  background-color: #e29933;
+  color: white
+}
+
+.newUser-button:hover {
+  color: white;
+  background: darkgreen;
+  transform: scale(1.2);
+}
+
+.newUser-button {
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 8px 8px;
+  background: orange;
+  color: white;
+  font-size: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.style-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerAndButton-section {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.excluir-button {
+  border: 1px solid #ee5253;
+  color: #ee5253;
+}
+
+.section-buttons {
+  display: flex;
+}

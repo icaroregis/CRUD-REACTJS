@@ -1,0 +1,15 @@
+.imagem-header-two {
+  width: 45px;
+  height: 45px;
+}
+
+.section-header-two {
+  max-width: 1076px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  border-bottom: solid #eaeaea 1px;
+  padding-bottom: 30px;
+  margin: 30px auto;
+}

@@ -1,0 +1,12 @@
+.card {
+  height: 20px;
+  padding: 2rem;
+  border-radius: 10px;
+  /*Cria uma sombra*/
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
