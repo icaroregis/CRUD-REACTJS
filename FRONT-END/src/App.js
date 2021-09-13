@@ -3,7 +3,7 @@ import Routes from './routes';
 import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 
-function App() {
+export default function App() {
   return (
     <>
       <BrowserRouter>
@@ -13,5 +13,3 @@ function App() {
     </>
   );
 }
-
-export default App;

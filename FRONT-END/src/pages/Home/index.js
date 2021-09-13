@@ -16,7 +16,6 @@ const Home = () => {
   useEffect(() => {
     api.get('/galera').then((response) => {
       setGalera(response.data);
-      console.log(response.data);
     });
   }, []);
 
@@ -58,7 +57,7 @@ const Home = () => {
           </div>
           <div className='headerAndButton-section'>
             <p className='header-p'>
-              Escolha um cliente para visualizar os detalhes
+              Escolha um usuário para visualizar os detalhes
             </p>
             <button className='newUser-button' onClick={rotas}>
               Novo Usuário

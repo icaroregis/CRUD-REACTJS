@@ -45,8 +45,7 @@ export default function Cadastro() {
       telefone,
       status,
     });
-    console.log(params.id);
-    /*toast.success('Usuário editado com sucesso');*/
+    toast.success('Usuário editado com sucesso');
     history.push('/');
   }
 
@@ -95,68 +94,68 @@ export default function Cadastro() {
 
   return (
     <>
-      <section className='section-cadastro'>
-        <div className='div-herder2'>
+      <section className="section-cadastro">
+        <div className="div-herder2">
           <Header2 />
         </div>
-        <section className='section-cadastroTwo'>
-          <div className='titulo-cadastro'>
-            <strong className='header-cadastro'>Novo Usuário</strong>
+        <section className="section-cadastroTwo">
+          <div className="titulo-cadastro">
+            <strong className="header-cadastro">Novo Usuário</strong>
           </div>
-          <div className='paragrafo-cadastro'>
+          <div className="paragrafo-cadastro">
             <p>Informe os campos a seguir para criar novo usuário:</p>
           </div>
         </section>
-        <form onSubmit={handleSubmit} className='section-cadastroThree'>
+        <form onSubmit={handleSubmit} className="section-cadastroThree">
           <input
             required
             value={nome}
             onChange={({ target }) => setNome(target.value)}
-            type='text'
-            placeholder='Nome'
+            type="text"
+            placeholder="Nome"
           />
           <input
             required
             value={email}
             onChange={({ target }) => setEmail(target.value)}
-            type='text'
-            placeholder='E-mail'
+            type="text"
+            placeholder="E-mail"
           />
           <input
             required
             value={CPF}
             onChange={({ target }) => setCpf(target.value)}
-            type='text'
-            placeholder='CPF'
+            type="text"
+            placeholder="CPF"
           />
           <input
             required
             value={telefone}
             onChange={({ target }) => setTelefone(target.value)}
-            type='text'
-            placeholder='telefone'
+            type="text"
+            placeholder="telefone"
           />
           <input
             required
             value={status}
             onChange={({ target }) => setStatus(target.value)}
-            type='text'
-            placeholder='status. por exemplo: ativo, inativo etc'
+            type="text"
+            placeholder="status. por exemplo: ativo, inativo etc"
           />
 
-          <section className='section-cadastroFour'>
+          <section className="section-cadastroFour">
             <div>
               <strong>{notificacao}</strong>
             </div>
 
             {
               isEdit ? (
-                <button type='Submit' className='button-cadastro'>
+                <button type="Submit" className="button-cadastro">
                   {' '}
                   Editar{' '}
                 </button>
               ) : (
-                <button onClick={handleClick} className='button-cadastro'>
+                <button onClick={handleClick} className="button-cadastro">
                   Salvar
                 </button>
               )
@@ -166,7 +165,7 @@ export default function Cadastro() {
               </button>*/
             }
 
-            <button onClick={handleBack} className='button-cadastro'>
+            <button onClick={handleBack} className="button-cadastro">
               Voltar
             </button>
           </section>

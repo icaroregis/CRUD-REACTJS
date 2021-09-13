@@ -1,0 +1,16 @@
+{
+  "dados": [
+    {
+      "minhaDataDeNascimento": "17 /02 /1993",
+      "dadosDaMinhaMae": [
+        {
+          "nomeDaminhaMae": "Antônia Carlas de Almeida",
+          "anoDeNascimento": 1978
+        },
+        {
+          "serBluemer": "Quero ser Bluemer para apromiorar meus conhecimentos em lógica de programação"
+        }
+      ]
+    }
+  ]
+}

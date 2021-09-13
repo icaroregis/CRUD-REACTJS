@@ -1,7 +1,6 @@
 .section-cadastro {
   max-width: 1076px;
   width: 100%;
-  /*display: flex;*/
   align-items: center;
   margin-top: 80px;
   padding-bottom: 30px;
@@ -12,7 +11,6 @@
   max-width: 1076px;
   width: 100%;
   align-items: center;
-  /*margin-top: 80px;*/
   padding-bottom: 30px;
   margin: 20px auto;
 }
