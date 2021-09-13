@@ -17,14 +17,6 @@
       "id": 4
     },
     {
-      "nome": "Saulo Anderson de Ameida ",
-      "email": "sualo.almeida@gmail.com",
-      "CPF": "05378937337",
-      "telefone": "123457",
-      "status": "ativo",
-      "id": 5
-    },
-    {
       "nome": "Crisanto de Oliveira Paiva",
       "email": "crisanto.almeida@gmail.com",
       "CPF": "05378937337",
@@ -39,6 +31,14 @@
       "telefone": "123457",
       "status": "ativo",
       "id": 5
+    },
+    {
+      "nome": "Teste",
+      "email": "teste@teste",
+      "CPF": "763.988.983",
+      "telefone": "012345",
+      "status": "",
+      "id": 6
     }
   ]
 }
