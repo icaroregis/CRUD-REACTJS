@@ -148,22 +148,16 @@ export default function Cadastro() {
               <strong>{notificacao}</strong>
             </div>
 
-            {
-              isEdit ? (
-                <button type="Submit" className="button-cadastro">
-                  {' '}
-                  Editar{' '}
-                </button>
-              ) : (
-                <button onClick={handleClick} className="button-cadastro">
-                  Salvar
-                </button>
-              )
-
-              /* <button onClick={handleClick} className='button-cadastro'>
-                {isEdit ? 'Salvar' : 'Criar'}
-              </button>*/
-            }
+            {isEdit ? (
+              <button type="Submit" className="button-cadastro">
+                {' '}
+                Editar{' '}
+              </button>
+            ) : (
+              <button onClick={handleClick} className="button-cadastro">
+                Salvar
+              </button>
+            )}
 
             <button onClick={handleBack} className="button-cadastro">
               Voltar

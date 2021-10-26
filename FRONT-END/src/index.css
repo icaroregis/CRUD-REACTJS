@@ -132,3 +132,8 @@ input,
 button {
   font-family: 'Lato', sans-serif;
 }
+
+link,
+a {
+  border: none;
+}

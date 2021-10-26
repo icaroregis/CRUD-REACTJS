@@ -1,9 +1,9 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import './styles.css';
 
 const Status = ({ status }) => {
   const alteraStatus = () => {
-    return status === "aguardando ativação" ? "aguardando" : status;
+    return status === 'aguardando ativação' ? 'aguardando' : status;
   };
   return (
     <div className="status-bolinha">
