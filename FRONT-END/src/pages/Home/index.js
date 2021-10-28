@@ -24,7 +24,7 @@ const Home = () => {
     setGalera(
       galera.filter((user) => {
         return user.id !== id;
-      })
+      }),
     );
     setId(null);
     handleClose();
@@ -44,22 +44,21 @@ const Home = () => {
 
   function editUser(id) {
     history.push(`/editar/${id}`);
-    console.log(id);
   }
 
   return (
     <>
-      <section className='container-headerTwo'>
-        <div className='listagem-strong'>
+      <section className="container-headerTwo">
+        <div className="listagem-strong">
           <Header2 />
-          <div className='titulo-two'>
-            <strong className='header'>Listagem de Usuários</strong>
+          <div className="titulo-two">
+            <strong className="header">Listagem de Usuários</strong>
           </div>
-          <div className='headerAndButton-section'>
-            <p className='header-p'>
+          <div className="headerAndButton-section">
+            <p className="header-p">
               Escolha um usuário para visualizar os detalhes
             </p>
-            <button className='newUser-button' onClick={rotas}>
+            <button className="newUser-button" onClick={rotas}>
               Novo Usuário
             </button>
           </div>
@@ -68,21 +67,21 @@ const Home = () => {
           <div>
             {galera.map((user) => (
               <Card>
-                <div key={user.id} className='section-padrao'>
+                <div key={user.id} className="section-padrao">
                   <p>{user.nome}</p>
                   <p>{user.email}</p>
                 </div>
-                <div className='section-padrao'>
+                <div className="section-padrao">
                   <p>{user.cpf}</p>
                   <p>{user.telefone}</p>
                 </div>
-                <div className='section-padrao'>
+                <div className="section-padrao">
                   <Status status={user.status} />
                 </div>
-                <div className='section-buttons'>
+                <div className="section-buttons">
                   <button
                     onClick={() => editUser(user.id)}
-                    className='editar-button'
+                    className="editar-button"
                   >
                     Editar
                   </button>
@@ -92,7 +91,7 @@ const Home = () => {
                       handleShow();
                       setId(user.id);
                     }}
-                    className='excluir-button'
+                    className="excluir-button"
                   >
                     Excluir
                   </button>
@@ -110,11 +109,11 @@ const Home = () => {
               Tem certeza que deseja excluir esse Usuário?
             </Modal.Body>
             <Modal.Footer>
-              <Button variant='outline-primary' onClick={handleClose}>
+              <Button variant="outline-primary" onClick={handleClose}>
                 Fechar
               </Button>
 
-              <Button variant='outline-danger' onClick={() => deleteUser(id)}>
+              <Button variant="outline-danger" onClick={() => deleteUser(id)}>
                 Excluir definitivamente
               </Button>
             </Modal.Footer>
